@@ -27,8 +27,8 @@
                 </div>
                 </nav>
              </div>
-            </nav>
-          
+        </nav>
+  
 
 <h1>Create Blog post</h1>
 
@@ -46,13 +46,15 @@
     </div>
     
     <div>
-        <button type="submit">Submit</button>
+        <button action='<?php echo $path . "/../controller/create-post.php" ?>' type="submit">Submit</button>
     </div>   
 </form>
 
-<?php
-require_once(__DIR__ . "/../model/config.php");
-require_once (__DIR__ . "/../controller/login-verify.php");
-?>
+
     </body>
-</html>     
+</html> 
+<?php
+require_once (__DIR__ . "/../model/config.php");
+require_once (__DIR__ . "/../controller/login-verify.php");
+
+        
