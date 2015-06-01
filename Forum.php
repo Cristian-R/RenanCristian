@@ -1,8 +1,8 @@
 
 <html lang="en">
     <head>
-        <title>App HUB</title>
-        <link rel="shortcut icon" href="IMG/Logo.png">
+        <title>APPhub</title>
+        <link rel="shortcut icon" href="IMG/APPhub2.png">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link type="text/css"  rel="stylesheet" href="css/bootstrap.min.css">
@@ -21,7 +21,7 @@
                         <a class="blog-nav-item" href="register.php">Register</a>
                         <a class="blog-nav-item active" href="index.php">Forum</a>
                         <!--the code in navigation.php makes both links post.php and logout-user.php visible only once the user has been signed in-->
-                        <a class="blog-nav-item" href="view/form.php">Post</a>
+                        <a class="blog-nav-item" href="post.php">Post</a>
                     </div>
                 </div>
              </div>

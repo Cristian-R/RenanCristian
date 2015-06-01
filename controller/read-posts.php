@@ -9,7 +9,8 @@
     $query = "SELECT * FROM posts";
     $result = $_SESSION["connection"]->query($query);
    
-
+        date_default_timezone_set("America/Los_Angeles");
+        $date = date("h:i a, l F j");
     if ($result){
        
         

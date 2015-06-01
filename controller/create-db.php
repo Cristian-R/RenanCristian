@@ -14,3 +14,4 @@ $query = $_SESSION["connection"]->query("CREATE TABLE users ("
         . "password char(128) NOT NULL,"
         . "salt char(128) NOT NULL,"
         . "PRIMARY KEY  (id))");
+
